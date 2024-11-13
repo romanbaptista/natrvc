@@ -229,9 +229,9 @@ with lcol:
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Knowing protein targets and their wider pathways is important to uncover the mechanisms of different pathogens.</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Knowing their plans of attack lets you develop more effective treatments against them.</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Select the pathway options below to see how targeting one protein can affect a large area of a network.</h1>', unsafe_allow_html=True)
-    st.write('\n')
-    st.write('\n')
-    st.write('\n')
+    # st.write('\n')
+    # st.write('\n')
+    # st.write('\n')
 
     ## BUTTONS
     # Define number of columns
