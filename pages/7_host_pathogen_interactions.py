@@ -259,7 +259,7 @@ with rcol:
                                                 edge_x = edge_x, edge_y = edge_y,
                                                 highlighted_pathway = highlighted_pathway,
                                                 node_size = 25,
-                                                plot_size = 700,
+                                                plot_size = 600,
                                                 title_show = False)
     
     # Plot highlighted figure
