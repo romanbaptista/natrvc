@@ -287,9 +287,9 @@ lcol, mcol, rcol = st.columns([lrcol_width, mcol_width ,lrcol_width], gap = 'sma
 with mcol:
     if highlighted_pathway is not None:
         st.write(f'<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">{pathway_desc[highlighted_pathway]}</h1>', unsafe_allow_html=True)
-st.write('\n')
-st.write('\n')
-st.write('\n')
+# st.write('\n')
+# st.write('\n')
+# st.write('\n')
 
 
 highlighted_pathway = None
