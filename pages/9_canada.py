@@ -17,7 +17,7 @@ with mcol:
     # Title
     st.write('<h1 style="font-family: Consolas, sans-serif; font-size: 60px; font-weight: normal;">CANADA Project</h1>', unsafe_allow_html=True)
     st.write('\n')
-    st.write('\n')
+    # st.write('\n')
     # st.write('\n')
     # st.write('\n')
 
