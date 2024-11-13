@@ -16,7 +16,7 @@ st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>"
 
 ## FUNCTION
 # Create graph
-def create_graph(graph, highlighted_drugs, size: int = 700):
+def create_graph(graph, highlighted_drugs, size: int = 600):
     figure = go.Figure()
 
     edge_trace = af.generate_edge_trace(edge_x,
