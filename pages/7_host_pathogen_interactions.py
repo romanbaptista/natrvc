@@ -258,7 +258,7 @@ with rcol:
                                                 node_x = node_x, node_y = node_y,
                                                 edge_x = edge_x, edge_y = edge_y,
                                                 highlighted_pathway = highlighted_pathway,
-                                                node_size = 25,
+                                                node_size = 20,
                                                 plot_size = 600,
                                                 title_show = False)
     
