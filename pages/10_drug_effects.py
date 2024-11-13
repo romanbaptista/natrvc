@@ -109,7 +109,7 @@ node_colors = [norm.to_rgba(graph.nodes[node]['disease']) for node in graph.node
 st.write('<h1 style="font-family: Consolas, sans-serif; font-size: 60px; font-weight: normal;">Drug effects</h1>', unsafe_allow_html=True)
 
 # Set columns
-lcol, rcol = st.columns([0.4, 0.6], gap = 'medium', vertical_alignment = 'center')
+lcol, rcol = st.columns([0.4, 0.6], gap = 'large', vertical_alignment = 'center')
 
 with lcol:
 
