@@ -54,8 +54,8 @@ def create_graph(graph, highlighted_drugs, size: int = 600):
             hoverinfo='none'
         ))
 
-    minlim = -1.005
-    maxlim = 1.005
+    minlim = -1.003
+    maxlim = 1.003
 
     # Define axis format dictionary
     axis_dict = {'showgrid' : False,
