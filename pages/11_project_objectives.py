@@ -10,8 +10,8 @@ st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>"
 # Title
 st.write('<h1 style="font-family: Consolas, sans-serif; font-size: 60px; font-weight: normal;">Project objectives</h1>', unsafe_allow_html=True)
 st.write('\n')
-st.write('\n')
-st.write('\n')
+# st.write('\n')
+# st.write('\n')
 
 
 lcol, mcol, rcol = st.columns(3, gap = 'medium', vertical_alignment = 'top')
