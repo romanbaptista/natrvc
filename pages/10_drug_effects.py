@@ -44,7 +44,7 @@ def create_graph(graph, highlighted_drugs, size: int = 600):
             x=[node_x[i]], y=[node_y[i]],
             mode='markers',
             marker=dict(
-                size=20,
+                size=15,
                 color=node_color,
                 line = {'color' : 'black',
                         'width' : 0.75}
