@@ -18,8 +18,8 @@ with mcol:
     st.write('<h1 style="font-family: Consolas, sans-serif; font-size: 60px; font-weight: normal;">Nodes of interest</h1>', unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
-    st.write('\n')
-    st.write('\n')
+    # st.write('\n')
+    # st.write('\n')
 
     st.video('./assets/videos/anim3.mp4', autoplay = True, loop = False)
 
