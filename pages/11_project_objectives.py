@@ -26,7 +26,7 @@ with lcol:
     llcol, mmcol, rrcol = st.columns([0.1, 0.8, 0.1], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
-        st.image('assets/icons/plate_.gif')
+        st.image('assets/icons/plate_gif.gif')
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
         st.write('\n')
         st.write('\n')
