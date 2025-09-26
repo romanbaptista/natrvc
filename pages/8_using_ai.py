@@ -35,4 +35,4 @@ with mcol:
             st.switch_page('pages/7_host_pathogen_interactions.py')
     with rcol2:
         if st.button('Next', use_container_width = True):
-            st.switch_page('pages/9_canada.py')
+            st.switch_page('pages/9_ap_drugs.py')

@@ -227,7 +227,7 @@ mcol_width = 0.4
 llcol, lcol, mcol, rcol, rrcol = st.columns([lrcol_width, lrcol_width, lrcol_width, lrcol_width, lrcol_width,], gap = 'large', vertical_alignment = 'top')
 with llcol:
     if st.button('Back', use_container_width = True):
-        st.switch_page('pages/9_canada.py')
+        st.switch_page('pages/9_ap_drugs.py')
 with rrcol:
     if st.button('Next', use_container_width = True):
         st.switch_page('pages/11_project_objectives.py')
