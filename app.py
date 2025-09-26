@@ -48,7 +48,7 @@ drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
                  icon = ':material/pill:')
 
-eimeria = st.Page(page = 'pages/11_eimieria_project.py',
+eimeria = st.Page(page = 'pages/11_eimeria_project.py',
                   title = 'Eimeria Project',
                   icon = ':material/bug_report:')
 
