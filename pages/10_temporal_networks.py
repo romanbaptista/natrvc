@@ -8,7 +8,7 @@ st.set_page_config(initial_sidebar_state = 'collapsed', layout = 'wide')
 st.html("<style>[data-testid='stHeaderActionElements'] {display: none;}</style>")
 
 lrcol_width = 0.22
-mcol_width = 0.5
+mcol_width = 0.85
 
 ## FORMAT COLUMNS
 lcol, mcol, rcol = st.columns([lrcol_width, mcol_width ,lrcol_width], gap = 'medium', vertical_alignment = 'center')
