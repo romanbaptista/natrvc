@@ -21,7 +21,7 @@ with mcol:
     # st.write('\n')
     # st.write('\n')
 
-    st.video('./assets/video/temporal_networks.mp4', autoplay = True, loop = True)
+    st.video('./assets/videos/temporal_networks.mp4', autoplay = True, loop = True)
 
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">This is called a temporal network.</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Temporal networks help us understand which biologicl pathways are important at different lifecycle stages.</h1>', unsafe_allow_html=True)
