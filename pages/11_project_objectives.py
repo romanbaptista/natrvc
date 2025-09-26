@@ -42,7 +42,7 @@ with rcol:
     llcol, mmcol, rrcol = st.columns([0.33, 0.33, 0.33], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
-        st.image('assets/icons/plateggif.gif')
+        st.image('assets/icons/plate_gif.gif')
     
     llcol, mmcol, rrcol = st.columns([0.1, 0.8, 0.1], gap = 'small', vertical_alignment = 'center')
     
