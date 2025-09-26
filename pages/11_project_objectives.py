@@ -21,12 +21,11 @@ with lcol:
     llcol, mmcol, rrcol = st.columns([0.33, 0.33, 0.33], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
-        st.image('assets/icons/ai_gif.gif')
+        st.image('assets/icons/lines.gif')
     
     llcol, mmcol, rrcol = st.columns([0.1, 0.8, 0.1], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
-        st.image('assets/icons/plate_gif.gif')
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
         st.write('\n')
         st.write('\n')
@@ -43,13 +42,13 @@ with rcol:
     llcol, mmcol, rrcol = st.columns([0.33, 0.33, 0.33], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
-        st.image('assets/icons/ai_gif.gif')
+        st.image('assets/icons/plateggif.gif')
     
     llcol, mmcol, rrcol = st.columns([0.1, 0.8, 0.1], gap = 'small', vertical_alignment = 'center')
     
     with mmcol:
         #st.write('## Testing known drugs')
-        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Predicting unknown drugs</b></h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Vaccine Candidates</b></h1>', unsafe_allow_html=True)
         st.write('\n')
         st.write('\n')
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Wider data about drugs is available', unsafe_allow_html=True)
