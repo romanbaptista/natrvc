@@ -18,17 +18,25 @@ lcol, rcol = st.columns(2, gap = 'medium', vertical_alignment = 'top')
 
 with lcol:
 
-    st.image('assets/icons/ai_gif.gif')
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
-    st.write('\n')
-    st.write('\n')
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>3</b></span> anti-<i>Cryptosporidium</i> compounds</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>COLO-680N</b></span> human intestine cell line</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>2</b></span> doses (High, Low)</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>2</b></span> timepoints (6h, 24h)</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">This provides data on <span style="color: rgb(41, 175, 128);"><b>how</b></span> the drugs produce their beneficial effects.</h1>', unsafe_allow_html=True)
+    llcol, mmcol, rrcol = st.columns([0.33, 0.33, 0.33], gap = 'small', vertical_alignment = 'center')
+    
+    with mmcol:
+        st.image('assets/icons/ai_gif.gif')
+    
+    llcol, mmcol, rrcol = st.columns([0.1, 0.8, 0.1], gap = 'small', vertical_alignment = 'center')
+    
+    with mmcol:
+        st.image('assets/icons/plate_.gif')
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
+        st.write('\n')
+        st.write('\n')
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>3</b></span> anti-<i>Cryptosporidium</i> compounds</h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>COLO-680N</b></span> human intestine cell line</h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>2</b></span> doses (High, Low)</h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"><span style="color: rgb(41, 175, 128);"><b>2</b></span> timepoints (6h, 24h)</h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">This provides data on <span style="color: rgb(41, 175, 128);"><b>how</b></span> the drugs produce their beneficial effects.</h1>', unsafe_allow_html=True)
 
 with rcol:
 
