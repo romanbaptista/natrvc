@@ -19,9 +19,6 @@ lcol, rcol = st.columns(2, gap = 'medium', vertical_alignment = 'top')
 with lcol:
 
     st.image('assets/images/hen.png')
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
-    st.write('\n')
-    st.write('\n')
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">The drugs against this disease have become less effective</i></h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">The only commercial vaccines use live parasites to give immunity</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">New drugs and vaccines are required to help chickens and farmers</h1>', unsafe_allow_html=True)
