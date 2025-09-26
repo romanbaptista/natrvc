@@ -48,9 +48,17 @@ drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
                  icon = ':material/pill:')
 
-drug_repurposing = st.Page(page = 'pages/11_project_objectives.py',
+eimeria = st.Page(page = 'pages/11_eimieria_project.py',
+                  title = 'Eimeria Project',
+                  icon = ':material/bug_report:')
+
+project_objectives = st.Page(page = 'pages/12_project_objectives.py',
                  title = 'Project Objectives',
                  icon = ':material/task_alt:')
+
+thanks = st.Page(page = 'pages/13_thanks.py',
+                 title = 'Conclusion',
+                 icon = ':material/check:')
 
 ## NAVIGATION
 
@@ -64,5 +72,7 @@ nav = st.navigation(pages = [home,
                              using_ai, 
                              ap_drugs,
                              temporal_networks,
-                             drug_repurposing])
+                             eimeria,
+                             project_objectives,
+                             thanks])
 nav.run()
