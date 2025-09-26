@@ -32,7 +32,7 @@ with lcol:
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Use transcriptomics data to build temporal networks for <i>Eimeria tenella</i></h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Discard orthologous proteins</h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Rank potential drug targets based on connections, lifecycle stages and annotations</h1>', unsafe_allow_html=True)
-        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Virtually screen top targets for potential drug molecule hits')
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Virtually screen top targets for potential drug molecule hits</h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
         
