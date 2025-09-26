@@ -23,9 +23,9 @@ with mcol:
 
     st.image('assets/images/eimeria.jpg')
 
-    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">Protein network effects and drug repurposing</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Cryptosporidiosis is the foremost cause of diarrhoea morbidity and mortality in children under 5 years old.</h1>', unsafe_allow_html=True)
-    st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Understanding existing drug effects on protein networks can reveal novel treatment options.</h1>', unsafe_allow_html=True)
+    st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">Parasitic pathogens are difficult to develop drugs for.</h1>', unsafe_allow_html=True)
+    st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">They have different lifecycle stages which express different proteins.</h1>', unsafe_allow_html=True)
+    st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Therefore, selecting a drug target can be tricky.</h1>', unsafe_allow_html=True)
     st.write('\n')
 
     lcol2,mcol2,rcol2 = st.columns(3, gap = 'large', vertical_alignment = 'top')
