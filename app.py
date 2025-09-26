@@ -42,7 +42,7 @@ ap_drugs = st.Page(page = 'pages/9_ap_drugs.py',
 
 temporal_networks = st.Page(page = 'pages/10_temporal_networks.py',
                             title = 'Temporal Networks',
-                            icon = ':material/nest_clock_farsight_analogue:')
+                            icon = ':material/history:')
 
 drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
