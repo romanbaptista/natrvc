@@ -25,6 +25,7 @@ with mcol:
 
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">This is called a temporal network.</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Temporal networks help us understand which biologicl pathways are important at different lifecycle stages.</h1>', unsafe_allow_html=True)
+    st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Transcriptomics data provides a snapshot of proteins being made at each lifecycle stage.</h1>', unsafe_allow_html=True)
     st.write('\n')
 
     lcol2,mcol2,rcol2 = st.columns(3, gap = 'large', vertical_alignment = 'top')
