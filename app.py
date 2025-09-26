@@ -36,9 +36,9 @@ using_ai = st.Page(page = 'pages/8_using_ai.py',
                    title = 'Using AI',
                    icon = ':material/smart_toy:')
 
-canada = st.Page(page = 'pages/9_canada.py',
-                 title = 'CANADA',
-                 icon = ':material/microbiology:')
+#canada = st.Page(page = 'pages/9_canada.py',
+                 #title = 'CANADA',
+                 #icon = ':material/microbiology:')
 
 drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
