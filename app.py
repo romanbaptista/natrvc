@@ -58,7 +58,7 @@ nav = st.navigation(pages = [home,
                              protein_pathways, 
                              host_pathogen_interactions, 
                              using_ai, 
-                             canada,
+                             #canada,
                              drug_effects,
                              drug_repurposing])
 nav.run()
