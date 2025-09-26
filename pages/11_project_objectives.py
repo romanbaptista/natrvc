@@ -35,8 +35,7 @@ with lcol:
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Rank potential drug targets based on connections, lifecycle stages and annotations</h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;"></h1>', unsafe_allow_html=True)
-        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">This provides data on <span style="color: rgb(41, 175, 128);"><b>how</b></span> the drugs produce their beneficial effects.</h1>', unsafe_allow_html=True)
-
+        
 with rcol:
 
     llcol, mmcol, rrcol = st.columns([0.33, 0.33, 0.33], gap = 'small', vertical_alignment = 'center')
@@ -54,10 +53,9 @@ with rcol:
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Predict properties of <i>E. tenella</i> proteins using many bioinformatics packages', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Use machine learning to predict whether proteins produce an <span style="color: rgb(41, 175, 128);"><b>immunoprotective effect</b></span></h1>', unsafe_allow_html=True)
         st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Express top candidates in vector orgaism (e.g. yeast)</h1>', unsafe_allow_html=True)
-        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Trial vaccine candidates for <span style="color: rgb(41, 175, 128);"><b>efficacy</b></span> and <span style="color: rrgb(41, 175, 128);"><b>safety</b></span></h1>', unsafe_allow_html=True)
+        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">Trial vaccine candidates for <span style="color: rgb(41, 175, 128);"><b>efficacy</b></span> and <span style="color: rgb(41, 175, 128);"><b>safety</b></span></h1>', unsafe_allow_html=True)
         st.write('\n')
-        st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">This allows us to efficiently simulate effects of new drugs and generate better candidate lists.</h1>', unsafe_allow_html=True)
-
+        
 st.write('\n')
 st.write('\n')
 
