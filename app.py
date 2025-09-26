@@ -36,9 +36,9 @@ using_ai = st.Page(page = 'pages/8_using_ai.py',
                    title = 'Using AI',
                    icon = ':material/smart_toy:')
 
-#canada = st.Page(page = 'pages/9_canada.py',
-                 #title = 'CANADA',
-                 #icon = ':material/microbiology:')
+ap_drugs = st.Page(page = 'pages/9_canada.py',
+                 title = 'Anti-parasitic Drugs',
+                 icon = ':material/microbiology:')
 
 drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
@@ -58,7 +58,7 @@ nav = st.navigation(pages = [home,
                              protein_pathways, 
                              host_pathogen_interactions, 
                              using_ai, 
-                             #canada,
+                             ap_drugs,
                              drug_effects,
                              drug_repurposing])
 nav.run()
