@@ -18,7 +18,7 @@ lcol, rcol = st.columns(2, gap = 'medium', vertical_alignment = 'top')
 
 with lcol:
 
-    #st.write('## Testing known drugs')
+    st.image('assets/icons/ai_gif.gif')
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 34px; font-weight: normal; text-align: center;"><b>Drug Targets</b></h1>', unsafe_allow_html=True)
     st.write('\n')
     st.write('\n')
