@@ -18,7 +18,11 @@ lcol, rcol = st.columns(2, gap = 'medium', vertical_alignment = 'top')
 
 with lcol:
 
+    st.write('\n')
+    st.write('\n')
     st.image('assets/images/hen.png')
+    st.write('\n')
+    st.write('\n')
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">The drugs against this disease have become less effective</i></h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">The only commercial vaccines use live parasites to give immunity</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">New drugs and vaccines are required to help chickens and farmers</h1>', unsafe_allow_html=True)
@@ -28,6 +32,8 @@ with rcol:
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal; "><b>Chickens can catch a parasitic in fection called coccidiosis</b></h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">It is caused by the parasite <i>Eimeria</i>, symptoms include weight loss, diahoerrea and bleeding.', unsafe_allow_html=True)
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 24px; font-weight: normal;">The disease can be <span style="color: rgb(41, 175, 128);"><b>fatal</b></span></h1>', unsafe_allow_html=True)
+    st.write('\n')
+    st.write('\n')
     st.image('assets/images/many_eimeria.jpg')
     
 st.write('\n')
