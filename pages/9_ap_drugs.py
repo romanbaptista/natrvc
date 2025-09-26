@@ -35,4 +35,4 @@ with mcol:
             st.switch_page('pages/8_using_ai.py')
     with rcol2:
         if st.button('Next', use_container_width = True):
-            st.switch_page('pages/10_drug_effects.py')
+            st.switch_page('pages/10_temporal_networks.py')

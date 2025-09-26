@@ -91,7 +91,7 @@ mcol_width = 0.4
 llcol, lcol, mcol, rcol, rrcol = st.columns([lrcol_width, lrcol_width, lrcol_width, lrcol_width, lrcol_width,], gap = 'large', vertical_alignment = 'top')
 with llcol:
     if st.button('Back', use_container_width = True):
-        st.switch_page('pages/10_drug_effects.py')
+        st.switch_page('pages/10_temporal_networks.py')
 with rrcol:
     if st.button('Home', use_container_width = True):
         st.switch_page('pages/1_home.py')

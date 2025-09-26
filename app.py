@@ -40,6 +40,10 @@ ap_drugs = st.Page(page = 'pages/9_ap_drugs.py',
                  title = 'Anti-parasitic Drugs',
                  icon = ':material/microbiology:')
 
+temporal_networks = st.Page(page = 'pages/10_temporal_networks.py',
+                            title = 'Temporal Networks',
+                            icon = ':material/nest_clock_farsight_analogue:')
+
 drug_effects = st.Page(page = 'pages/10_drug_effects.py',
                  title = 'Drug effects',
                  icon = ':material/pill:')
@@ -59,6 +63,6 @@ nav = st.navigation(pages = [home,
                              host_pathogen_interactions, 
                              using_ai, 
                              ap_drugs,
-                             drug_effects,
+                             temporal_networks,
                              drug_repurposing])
 nav.run()
