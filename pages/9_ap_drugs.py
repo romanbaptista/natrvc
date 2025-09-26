@@ -21,7 +21,7 @@ with mcol:
     # st.write('\n')
     # st.write('\n')
 
-    st.image('assets/images/eimeria.png')
+    st.image('assets/images/eimeria.jpg')
 
     st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">Protein network effects and drug repurposing</h1>', unsafe_allow_html=True)
     st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Cryptosporidiosis is the foremost cause of diarrhoea morbidity and mortality in children under 5 years old.</h1>', unsafe_allow_html=True)
