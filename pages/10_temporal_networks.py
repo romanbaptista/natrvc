@@ -24,7 +24,7 @@ with mcol:
 
         with rmcol:
             st.write('<h1 style="font-family: Aptos, sans-serif; font-size: 30px; font-weight: bold;">This is called a temporal network.</h1>', unsafe_allow_html=True)
-            st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Temporal networks help us understand which biologicl pathways are important at different lifecycle stages.</h1>', unsafe_allow_html=True)
+            st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Temporal networks help us understand which biological pathways are important at different lifecycle stages.</h1>', unsafe_allow_html=True)
             st.write('<h1 style="font-family: \'Segoe UI\', sans-serif; font-size: 24px; font-weight: normal;">Transcriptomics data provides a snapshot of proteins being made at each lifecycle stage.</h1>', unsafe_allow_html=True)
             st.write('\n')
 
@@ -32,7 +32,7 @@ with mcol:
     
         with lcol2:
             if st.button('Back', use_container_width = True):
-                st.switch_page('pages/8_using_ai.py')
+                st.switch_page('pages/9_ap_drugs.py')
         with rcol2:
             if st.button('Next', use_container_width = True):
-                st.switch_page('pages/10_drug_effects.py')
+                st.switch_page('pages/11_eimeria_project.py')
